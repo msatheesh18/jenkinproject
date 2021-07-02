@@ -31,7 +31,7 @@ public class A31_DragAndDropTest {
 		// a.dragAndDrop(drag, drop);   won't run
 		// a.dragAndDrop(drag, drop)perform();  it will run but don't use
 		a.dragAndDrop(drag, drop).build().perform();
-		
-	}
-
+	
+		System.out.println("hi");
+}
 }
