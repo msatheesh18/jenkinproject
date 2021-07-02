@@ -14,7 +14,7 @@ public class A31_DragAndDropTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		WebDriver wd=new FirefoxDriver();
+		WebDriver wd=new FirefoxDriver();;dsd
 		wd.manage().window().maximize();
 		PreCondition.loginVcentry(wd);
 		wd.get("http://djangovinoth.pythonanywhere.com/draganddrop/");
